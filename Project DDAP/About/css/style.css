@@ -59,4 +59,12 @@
     transform: translate(-50%, -50%);   
 }
 
+.our-teams .members ul li {
+    display: inline-block;
+}
 
+.our-teams .members li{
+    justify-content: center;
+    padding: 0 100px;
+    text-align: center;
+}
