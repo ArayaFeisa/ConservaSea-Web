@@ -25,6 +25,12 @@
 .activity h1, .breaking-news h1, .latest-news h1, .our-event h1, .top-rated h1 {
     font-family: 'Nunito Sans', sans-serif;
     font-weight: bold;
+    border-style: solid;
+    border-width: 15px;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    border-color: darkblue;
 }
 
 .activity img, #carouselExampleIndicators {
