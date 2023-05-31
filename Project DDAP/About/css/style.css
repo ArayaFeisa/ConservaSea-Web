@@ -18,6 +18,21 @@
     font-size: 15px;
 }
 
+.our-goals, .our-activity, .our-teams {
+    margin-top: 125px;
+}
+
+.our-goals h1, .our-activity h1, .our-teams h1 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+    border-style: solid;
+    border-width: 15px;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    border-color: darkblue;
+}
+
 .our-community .card {
     height: 600px;
     overflow: hidden;
