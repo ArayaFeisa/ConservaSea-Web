@@ -66,7 +66,6 @@
 }
 
 .our-community .card-img-overlay button {
-    /* text-transform: uppercase; */
     position: relative;
     top: 260px;
     left: 50%;
@@ -77,6 +76,31 @@
     justify-content: center;
     text-align: center;
     margin:125px 200px;
+}
+
+.mission-desc {
+    text-align: center;
+    margin-left:200px;
+    margin-right: 200px;
+}
+
+.mission-content {
+    justify-content: center;
+}
+
+.mission-content button {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.mission-content .card {
+    width: 650px;
+    border-radius: 0;
+}
+
+.mission-content .card-img-overlay {
+    background-color: rgba(0, 0, 0, 0.75);
 }
 
 .front-end-dev, .web-designer {
