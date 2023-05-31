@@ -18,11 +18,11 @@
     font-size: 15px;
 }
 
-.our-goals, .our-activity, .our-teams {
+.vision-desc, .our-goals, .our-teams {
     margin-top: 125px;
 }
 
-.our-goals h1, .our-activity h1, .our-teams h1 {
+.our-goals h1, .our-teams h1 {
     font-family: 'Nunito Sans', sans-serif;
     font-weight: bold;
     border-style: solid;
@@ -58,7 +58,6 @@
 }
 
 .our-community .card-img-overlay h5 {
-
     text-align: center;
     font-weight: lighter;
     position: relative;
@@ -74,9 +73,19 @@
     transform: translate(-50%, -50%);   
 }
 
+.vision-desc {
+    justify-content: center;
+    text-align: center;
+    margin:125px 200px;
+}
+
 .front-end-dev, .web-designer {
     flex-direction: row;
-    gap: 200px;
+    gap: 250px;
     text-align: center;
     justify-content: center;
+}
+
+.image-body {
+    max-width: 200px;
 }
