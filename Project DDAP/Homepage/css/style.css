@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    height: 75px;
+    background-color: rgb(25, 25, 128);
+}
+
+.navbar a {
+    font-size: 25px;
+    color: #fff;
+}
+
+.navbar-nav .nav-link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+.activity, .breaking-news, .latest-news, .our-event, .top-rated {
+    margin-top: 125px
+}
+
+.activity h1, .breaking-news h1, .latest-news h1, .our-event h1, .top-rated h1 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+}
+
+.activity img, #carouselExampleIndicators {
+    width: 1100px;
+    height: 650px;
+}
+
+.activity .carousel-caption {
+    background-color: rgb(0, 0, 0, 0.5);
+    padding: 10px;
+}
+
+.breaking-news .card {
+    width: 400px;
+    border: none;
+}
+
+.breaking-news .card img {
+    width: 400px;
+}
+
+.top-rated .list-group .card {
+    border: none;
+}
+
+.latest-news .card {
+    border: none;
+}
+
+.latest-news .card img {
+    width: 800px;
+}

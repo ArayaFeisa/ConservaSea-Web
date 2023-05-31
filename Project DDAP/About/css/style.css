@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    height: 75px;
+    background-color: rgb(25, 25, 128);
+}
+
+.navbar a {
+    font-size: 25px;
+    color: #fff;
+}
+
+.navbar-nav .nav-link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+.our-community .card {
+    height: 600px;
+    overflow: hidden;
+}
+
+.our-community .card img {
+    width: 100%;
+    height: auto;
+}
+
+.our-community .card-img-overlay {
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.our-community .card-img-overlay h1 {
+    margin: 0 100px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    top: 185px;
+    margin: 0 100px;
+}
+
+.our-community .card-img-overlay h5 {
+
+    text-align: center;
+    font-weight: lighter;
+    position: relative;
+    top: 210px;
+    margin: 0 150px;
+}
+
+.our-community .card-img-overlay button {
+    /* text-transform: uppercase; */
+    position: relative;
+    top: 260px;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+}
+
+
