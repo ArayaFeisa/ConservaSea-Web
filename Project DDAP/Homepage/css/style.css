@@ -38,6 +38,34 @@
     height: 650px;
 }
 
+@media (max-width: 767px) {
+    .navbar-nav {
+        flex-direction: column;
+        background-color: rgba(0, 0, 0, 0.25)
+    }
+    
+    .navbar-nav .nav-link {
+        margin-bottom: 10px;
+      }
+    
+    .navbar-toggler {
+        margin-bottom: 10px;
+      }
+
+    .activity img, #carouselExampleIndicators {
+        width: 100%; /* Atur lebar gambar agar memenuhi lebar layar */
+        height: auto; /* Biarkan tinggi gambar otomatis menyesuaikan */
+    }
+
+    .activity .carousel-caption {
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 10px;
+        bottom: 0; /* Tempatkan caption di bagian bawah gambar */
+        left: 0; /* Tempatkan caption di sejajar dengan kiri gambar */
+        width: 100%; /* Lebarkan caption agar memenuhi lebar gambar */
+    }
+}
+
 .activity .carousel-caption {
     background-color: rgb(0, 0, 0, 0.5);
     padding: 10px;
@@ -62,4 +90,33 @@
 
 .latest-news .card img {
     width: 800px;
+}
+
+footer {
+    background-color: #000;
+    height: 300px;
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer-nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.copyright hr {
+    height: 1px;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.copyright {
+    justify-content: center;
+    text-align: center;
 }
