@@ -87,6 +87,11 @@
     margin-right: 200px;
 }
 
+.mission-desc h5 {
+    background-color: rgba(0, 0, 0, 0.60);
+    color: #fff;
+}
+
 .mission-content {
     justify-content: center;
 }
