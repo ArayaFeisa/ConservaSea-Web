@@ -120,10 +120,6 @@
     color: #fff;
 }
 
-.mission-content {
-    max-width: 300px;
-}
-
 .front-end-dev, .web-designer {
     display: flex;
     flex-direction: row;
