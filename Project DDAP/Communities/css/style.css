@@ -21,6 +21,7 @@
 footer {
     position: relative;
     overflow: hidden;
+    margin-top: 125px;
 }
 
 .footer-bg {
