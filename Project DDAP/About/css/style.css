@@ -72,46 +72,60 @@
     transform: translate(-50%, -50%);   
 }
 
-.vision-desc {
+.vision {
+    display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
     text-align: center;
-    margin:125px 200px;
-    padding: 10px;
+}
+
+.vision-desc {
+    margin-top:125px;
+    margin-bottom: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 20px;
     color: #fff;
     background-color: rgba(0, 0, 0, 0.60);
 }
 
-.mission-desc {
+.vision img {
+    margin: 0;
+    width: 100%;
+    height: 500px;
+}
+
+
+.goals {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
     text-align: center;
-    margin-left:200px;
-    margin-right: 200px;
+    justify-content: center;
+}
+
+.goals img {
+    width: 300px;
+}
+
+.mission-desc {
+    max-width: 300px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.60);
 }
 
 .mission-desc h5 {
-    background-color: rgba(0, 0, 0, 0.60);
+    margin: 0;
     color: #fff;
 }
 
 .mission-content {
-    justify-content: center;
-}
-
-.mission-content button {
-    position: relative;
-    left: 50%;
-    transform: translate(-50%, -50%); 
-}
-
-.mission-content .card {
-    width: 650px;
-    border-radius: 0;
-}
-
-.mission-content .card-img-overlay {
-    background-color: rgba(0, 0, 0, 0.75);
+    max-width: 300px;
 }
 
 .front-end-dev, .web-designer {
+    display: flex;
     flex-direction: row;
     gap: 250px;
     text-align: center;
@@ -120,4 +134,8 @@
 
 .image-body {
     max-width: 200px;
+}
+
+.image-footer {
+    margin-top: auto;
 }
