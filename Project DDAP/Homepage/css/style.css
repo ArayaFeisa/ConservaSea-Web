@@ -3,6 +3,34 @@
     padding: 0;
 }
 
+@media (max-width: 767px) {
+    .navbar-nav {
+        flex-direction: column;
+        background-color: rgba(0, 0, 0, 0.25)
+    }
+    
+    .navbar-nav .nav-link {
+        margin-bottom: 10px;
+      }
+    
+    .navbar-toggler {
+        margin-bottom: 10px;
+      }
+
+    .activity img, #carouselExampleIndicators {
+        width: 100%;
+        height: auto;
+    }
+
+    .activity .carousel-caption {
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 10px;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+    }
+}
+
 .navbar {
     height: 75px;
     background-color: rgb(25, 25, 128);
@@ -36,34 +64,6 @@
 .activity img, #carouselExampleIndicators {
     width: 1100px;
     height: 650px;
-}
-
-@media (max-width: 767px) {
-    .navbar-nav {
-        flex-direction: column;
-        background-color: rgba(0, 0, 0, 0.25)
-    }
-    
-    .navbar-nav .nav-link {
-        margin-bottom: 10px;
-      }
-    
-    .navbar-toggler {
-        margin-bottom: 10px;
-      }
-
-    .activity img, #carouselExampleIndicators {
-        width: 100%; /* Atur lebar gambar agar memenuhi lebar layar */
-        height: auto; /* Biarkan tinggi gambar otomatis menyesuaikan */
-    }
-
-    .activity .carousel-caption {
-        background-color: rgba(0, 0, 0, 0.5);
-        padding: 10px;
-        bottom: 0; /* Tempatkan caption di bagian bawah gambar */
-        left: 0; /* Tempatkan caption di sejajar dengan kiri gambar */
-        width: 100%; /* Lebarkan caption agar memenuhi lebar gambar */
-    }
 }
 
 .activity .carousel-caption {

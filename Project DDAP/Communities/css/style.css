@@ -18,28 +18,66 @@
     font-size: 15px;
 }
 
-.banner {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 100px;
-    border: 1px solid;
+.community-data {
+    height: 800px;
 }
 
-.data-amount {
-    display: flex;
-    flex-direction: row;
-    gap: 5px;
+.community-data .card {
+    height: 600px;
+    overflow: hidden;
+    background-image: url(https://images.pexels.com/photos/9037592/pexels-photo-9037592.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    z-index: -1;
+}
+
+.card-img-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.card-img-overlay h1 {
+    position: relative;
+    top: 200px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+    color: #fff;
+    justify-content: center;
+    text-align: center;
+}
+
+.data-gather img {
+    width: 75px;
+}
+
+.data-gather {
+    background-color: #fff;
+    justify-content: center;
+    text-align: center;
+    gap: 100px;
+    position: relative;
+    margin: 0 325px;
+    border-radius: 30px;
+    top: -75px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    z-index: 1;
 }
 
 .data-amount h5 {
+    margin-bottom: 0;
     font-weight: bold;
-    font-size: 25px;
 }
 
-.data-amount img {
-    width: 100%;
-    height: 75px;
+.on-going img, #carouselExampleIndicators {
+    width: 1100px;
+    height: 650px;
+}
+
+.on-going .carousel-caption {
+    background-color: rgb(0, 0, 0, 0.5);
+    padding: 10px;
+}
+
+.volunteer {
+    margin-top: 125px;
 }
 
 footer {
