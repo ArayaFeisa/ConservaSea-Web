@@ -135,9 +135,11 @@ video::-webkit-media-controls-start-playback-button {
     position: relative;
     justify-content: center;
     text-align: center;
+    cursor: pointer;
 }
 
 .content img {
+    position: relative;
     width: 1000px;
     height: 600px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
@@ -158,9 +160,22 @@ video::-webkit-media-controls-start-playback-button {
 
 .content .content-overlay span {
     color: #fff;
-    text-align: center;
+    text-align: left;
 }
 
+.content-overlay h5 {
+    padding: 10px;
+    letter-spacing: 3px;
+    border: solid 2px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: goldenrod;
+}
+
+.content-overlay p {
+    font-size: 35px;
+}
 
 footer {
     position: relative;
