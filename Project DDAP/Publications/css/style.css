@@ -5,12 +5,13 @@
 
 .navbar {
     height: 75px;
-    background-color: rgb(25, 25, 128);
+    background-color: #fff;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .navbar a {
     font-size: 25px;
-    color: #fff;
+    color: rgb(20, 40, 80);
 }
 
 .navbar-nav .nav-link {
@@ -24,7 +25,11 @@
     text-align: center;
 }
 
-.innovation h1 {
+.research {
+    margin-top: 125px;
+}
+
+.innovation-segment h1, .research h1 {
     font-family: 'Nunito Sans', sans-serif;
     font-weight: bold;
     border-style: solid;
@@ -32,7 +37,7 @@
     border-top: none;
     border-right: none;
     border-bottom: none;
-    border-color: darkblue;
+    border-color: rgb(20, 40, 80);
 }
 
 .left-content {
@@ -125,6 +130,37 @@ video::-webkit-media-controls-start-playback-button {
     color: #fff;
     text-align: center;
 }
+
+.content {
+    position: relative;
+    justify-content: center;
+    text-align: center;
+}
+
+.content img {
+    width: 1000px;
+    height: 600px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.content .content-overlay {
+    position: absolute;
+    top: 0;
+    left: 150px;
+    width: 1000px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.content .content-overlay span {
+    color: #fff;
+    text-align: center;
+}
+
 
 footer {
     position: relative;
