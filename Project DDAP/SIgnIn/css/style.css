@@ -1,0 +1,15 @@
+.signup-text {
+    margin-top: 20px;
+    text-align: center;
+}
+.signup-text a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    color: #000;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.signup-text a:hover {
+    background-color: #e0e0e0;
+}
