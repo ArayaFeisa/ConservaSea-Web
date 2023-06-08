@@ -1,36 +1,37 @@
-.signin-section {
+.signup-section {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
-.signin-info {
+
+.signup-info {
     text-align: center;
 }
 
-.signin-title {
+.signup-title {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 10px;
 }
 
-.signin-info .form-group {
+.signup-info .form-group {
     margin-bottom: 15px;
 }
 
-.signin-info .form-group label {
+.signup-info .form-group label {
     display: block;
     margin-bottom: 5px;
 }
 
-.signin-info .form-group input {
+.signup-info .form-group input {
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
 
-.signin-info .form-group button[type="submit"] {
+.signup-info .form-group button[type="submit"] {
     margin-top: 20px;
     text-align: center;
     display: inline-block;
@@ -41,7 +42,7 @@
     border-radius: 5px;
 }
 
-.signin-info .form-group button[type="submit"]:hover {
+.signup-info .form-group button[type="submit"]:hover {
     background-color: #e0e0e0;
 }
 
@@ -49,19 +50,11 @@
     margin: 0 auto;
 }
 
-.form-inline {
-    display: flex;
-    align-items: center;
-}
-.form-inline input[type="checkbox"] {
-    margin-right: 5px;
-}
-
-.signup-text {
+.signin-text {
     margin-top: 20px;
     text-align: center;
 }
-.signup-text a {
+.signin-text a {
     display: inline-block;
     padding: 10px 20px;
     background-color: #f0f0f0;
@@ -69,6 +62,21 @@
     text-decoration: none;
     border-radius: 5px;
 }
-.signup-text a:hover {
+.signin-text a:hover {
     background-color: #e0e0e0;
 }
+
+.form-group label[for="agree"]{
+    text-align: left;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.remember-me input[type="checkbox"] {
+    margin-right: 2px;
+}
+
