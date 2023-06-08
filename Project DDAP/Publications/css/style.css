@@ -18,6 +18,86 @@
     font-size: 15px;
 }
 
+.innovation {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.innovation h1 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+    border-style: solid;
+    border-width: 15px;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    border-color: darkblue;
+}
+
+.left-content {
+    flex: 1;
+    position: relative;
+}
+
+.right-content {
+    margin-top: 75px;
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.left-content video {
+    width: 800px;
+    height: 600px;
+}
+
+video::-webkit-media-controls {
+    display: none;
+}
+
+video::-webkit-media-controls-enclosure {
+    display: none !important;
+}
+
+video::-webkit-media-controls-overlay-play-button {
+    display: none !important;
+}
+
+video::-webkit-media-controls-start-playback-button {
+    display: none !important;
+}
+
+.right-content .gambar-satu {
+    margin-bottom: 11px;
+}
+
+.right-content img {
+    width: 450px;
+    height: 220px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.left-content:hover .overlay {
+    opacity: 1;
+}
+
 footer {
     position: relative;
     overflow: hidden;

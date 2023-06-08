@@ -36,6 +36,7 @@
 .our-community .card {
     height: 600px;
     overflow: hidden;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .our-community .card img {
@@ -88,12 +89,16 @@
     padding: 20px;
     color: #fff;
     background-color: rgba(0, 0, 0, 0.60);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
 }
 
 .vision img {
     margin: 0;
     width: 100%;
     height: 500px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 
@@ -126,6 +131,10 @@
     gap: 250px;
     text-align: center;
     justify-content: center;
+}
+
+.front-end-dev img, .web-designer img {
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .image-body {
