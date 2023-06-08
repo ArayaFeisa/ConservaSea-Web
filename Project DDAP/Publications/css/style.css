@@ -3,21 +3,98 @@
     padding: 0;
 }
 
-.navbar {
-    height: 75px;
-    background-color: #fff;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+header {
+    background-color: #ffffff;
+    border-bottom: 3px solid #cccccc;
+    display: flex;
+    align-items: center;
+    padding: 20px;
 }
-
-.navbar a {
+  
+.site-name h1 a{
+    color: rgb(20, 40, 80);
+    font-family: 'Montserrat', sans-serif;
     font-size: 25px;
+    margin-left: 60px;
+    text-decoration: none;
+}
+  
+.donate-button {
+    margin-left: auto;
+    margin-right: 60px;
+}
+  
+.donate-button .btn {
+    background-color: rgb(20, 40, 80);
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+  
+.donate-button .btn:hover {
+    background-color: #fff;
     color: rgb(20, 40, 80);
 }
-
-.navbar-nav .nav-link {
+  
+  /* NAVBAR */
+nav {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     font-family: 'Montserrat', sans-serif;
+    background-color: rgba(169, 169, 169, 0.8);
+}
+  
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+  
+.nav-left ul {
+    margin-left: 60px;
+}
+  
+.nav-left ul li {
+    margin-right: 65px;
+}
+  
+nav ul li a {
+    color: rgb(20, 40, 80);
+    text-decoration: none;
     font-size: 15px;
 }
+  
+.nav-right ul {
+    margin-right: 60px;
+  }
+  
+.nav-right img {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+  
+.nav-right ul {
+    display: flex;
+    align-items: center;
+}
+  
+.nav-right ul li {
+    margin: 0px;
+}
+  
+nav ul li a:hover {
+    color: rgb(20, 40, 80);
+}
+  
 
 .innovation {
     display: flex;
@@ -104,7 +181,19 @@ video::-webkit-media-controls-start-playback-button {
 
 .image-overlay span {
     color: #fff;
-    text-align: center;
+    text-align: left;
+    margin-right: auto;
+}
+
+.image-overlay h5 {
+    font-size: 12px;
+    padding: 10px;
+    letter-spacing: 3px;
+    border: solid 2px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: goldenrod;
 }
 
 .video .overlay {
@@ -127,8 +216,19 @@ video::-webkit-media-controls-start-playback-button {
 }
 
 .video .overlay span {
+    margin-right: auto;
     color: #fff;
-    text-align: center;
+    text-align: left;
+}
+
+.overlay h5 {
+    padding: 10px;
+    letter-spacing: 3px;
+    border: solid 2px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: goldenrod;
 }
 
 .content {
@@ -175,6 +275,11 @@ video::-webkit-media-controls-start-playback-button {
 
 .content-overlay p {
     font-size: 35px;
+}
+
+.content-footer p {
+    color: #fff;
+    font-size: 15px;
 }
 
 footer {
