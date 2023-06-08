@@ -19,6 +19,51 @@
     font-size: 15px;
 }
 
+.trending {
+    margin-top: 125px;
+}
+
+.breaking-news h1, .trending h1 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+    border-style: solid;
+    border-width: 15px;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    border-color: rgb(20, 40, 80);
+}
+
+.breaking-news .card {
+    width: 400px;
+    border: none;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.breaking-news .card img {
+    width: 400px;
+}
+
+.carousel-control-prev span,
+.carousel-control-next span {
+    background-color: #000;
+    color: white;
+    padding: 10px;
+}
+
+.trending .card {
+    border: none;
+}
+
+.trending .card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.trending button {
+    position: relative;
+}
+
 footer {
     position: relative;
     overflow: hidden;
