@@ -58,7 +58,14 @@
                 <div class="card-img-overlay">
                     <h1 class="card-title">Our Community</h1>
                     <h5 class="card-text">Our vision is to become a leading and trusted source of information in the field of marine and fisheries, as well as a collaborative platform for professionals and volunteers in the industry</h5>
-                    <button type="button" class="btn btn-outline-light">Learn More</button>
+                    <button type="button" class="btn btn-outline-light" onclick="redirectToAnotherPage()">
+                        Learn More
+                        <script>
+                            function redirectToAnotherPage() {
+                                window.location = "../Communities/communities.html"
+                            }
+                        </script>
+                    </button>
                 </div>
             </div>
         </div>
