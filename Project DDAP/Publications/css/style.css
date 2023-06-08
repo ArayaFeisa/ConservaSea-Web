@@ -180,9 +180,9 @@ video::-webkit-media-controls-start-playback-button {
 }
 
 .image-overlay span {
+    position: relative;
     color: #fff;
     text-align: left;
-    margin-right: auto;
 }
 
 .image-overlay h5 {

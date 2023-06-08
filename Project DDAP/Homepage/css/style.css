@@ -95,7 +95,7 @@ nav ul li a:hover {
   color: rgb(20, 40, 80);
 }
 
-.activity, .breaking-news, .latest-news, .our-event, .top-rated {
+.breaking-news, .latest-news, .our-event, .top-rated {
     margin-top: 125px
 }
 
