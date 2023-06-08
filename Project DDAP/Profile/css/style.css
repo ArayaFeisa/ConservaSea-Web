@@ -22,7 +22,7 @@ header {
 
 .logo {
   margin-right: 20px;
-  margin-left: 40px;
+  margin-left: 60px;
 }
 
 .logo img {
@@ -33,7 +33,7 @@ header {
 .site-name h1 {
   color: #fff;
   font-family: 'Montserrat', sans-serif;
-  font-size: 24px;
+  font-size: 25px;
   margin: 0;
 }
 
@@ -116,6 +116,15 @@ nav ul li a:hover {
   color: rgb(25, 25, 112);
 }
 
+nav ul li:hover {
+  background-color: #e8e8e8;
+}
+
+.nav-left ul li:hover,
+.nav-right ul li:hover {
+  background-color: #e8e8e8;
+}
+
 /* PROFIL */
 .profile-section {
   margin-top: 10px;
@@ -153,7 +162,15 @@ nav ul li a:hover {
   font-family: 'Montserrat', sans-serif;
 }
 
-.profile-sidebar ul li a:hover {
+.profile-sidebar ul li.profile-option.active {
+  background-color: #e8e8e8;
+}
+
+.profile-sidebar ul li.profile-option:hover {
+  background-color: #e8e8e8;
+}
+
+.profile-sidebar ul li.profile-option a:hover {
   text-decoration: underline;
 }
 
