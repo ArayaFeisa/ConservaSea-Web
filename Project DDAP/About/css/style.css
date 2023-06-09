@@ -100,7 +100,7 @@ nav ul li a:hover {
     margin-top: 125px;
 }
 
-.our-goals h1, .our-teams h1 {
+.our-goals h1, .our-teams h1, .our-goals h1 {
     font-family: 'Nunito Sans', sans-serif;
     font-weight: bold;
     border-style: solid;
@@ -109,6 +109,10 @@ nav ul li a:hover {
     border-right: none;
     border-bottom: none;
     border-color: rgb(20, 40, 80);
+}
+
+.first-mission, .second-mission, .third-mission {
+    border-width: 15px;
 }
 
 .our-community .card {
