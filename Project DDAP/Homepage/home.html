@@ -27,7 +27,7 @@
                     <h1><a href="../Homepage/home.html">ConservaSea</a></h1>
                 </div>
                 <div class="donate-button">
-                    <a href="#" class="btn">Donate Now</a>
+                    <a href="../Donation/donation.html" class="btn">Donate Now</a>
                 </div>
             </header>
             
@@ -104,7 +104,14 @@
                             <div class="card-body d-flex flex-column">
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <button type="button" class="btn btn-outline-primary mt-auto">Read More</button>
+                                <button type="button" class="btn btn-outline-primary mt-auto" onclick="redirectToAnotherPage()">
+                                    Read More
+                                    <script>
+                                        function redirectToAnotherPage() {
+                                            window.location = "../NewsReview/newsReview.html"
+                                        }
+                                    </script>
+                                </button>
                             </div>
                             <div class="card-footer">
                                 <small class="text-muted">Last updated 4 mins ago</small>
@@ -117,7 +124,14 @@
                             <div class="card-body d-flex flex-column">
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                                <button type="button" class="btn btn-outline-primary mt-auto">Read More</button>
+                                <button type="button" class="btn btn-outline-primary mt-auto" onclick="redirectToAnotherPage()">
+                                    Read More
+                                    <script>
+                                        function redirectToAnotherPage() {
+                                            window.location = "../NewsReview/newsReview.html"
+                                        }
+                                    </script>
+                                </button>
                             </div>
                             <div class="card-footer">
                                 <small class="text-muted">Last updated 17 mins ago</small>
@@ -130,7 +144,14 @@
                             <div class="card-body d-flex flex-column">
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                                <button type="button" class="btn btn-outline-primary">Read More</button>
+                                <button type="button" class="btn btn-outline-primary" onclick="redirectToAnotherPage()">
+                                    Read More
+                                    <script>
+                                        function redirectToAnotherPage() {
+                                            window.location = "../NewsReview/newsReview.html"
+                                        }
+                                    </script>
+                                </button>
                             </div>
                             <div class="card-footer">
                                 <small class="text-muted">Last updated 24 mins ago</small>
@@ -145,10 +166,10 @@
         <div class="latest-news container">
             <h1 class="container mb-5">Latest News</h1>
             <div class="content">
-                <img src="" alt="">
+                <img src="image/Rectangle 67.png" alt="" class="me-3">
                 <div class="content-body">
-                    <h5 class="card-title">TERJUALNYA KEMBALI SALAH SATU PULAU DI INDONESIA</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                    <h5 class="card-title">The Need for Environmental Protection and Awareness</h5>
+                    <p class="card-text">provides a detailed analysis of the issue of marine pollution. It covers various aspects, including the sources of pollution, the impacts on marine ecosystems and human health, and the strategies to mitigate pollution.</p>
                 </div>
             </div>
         </div>

@@ -135,12 +135,23 @@ nav ul li a:hover {
 
 .content {
     display: flex;
-    width: 1000px;
-    height: 600px;
-    background-color: #000;
-    align-items: center;
     justify-content: center;
     text-align: center;
+}
+
+.content-body {
+    text-align: left;
+}
+
+.content-body h5 {
+    font-size: 32px;
+    padding: 10px;
+    letter-spacing: 3px;
+    border: solid 2px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: goldenrod;
 }
 
 footer {
