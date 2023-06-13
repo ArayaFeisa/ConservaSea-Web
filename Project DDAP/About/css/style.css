@@ -39,6 +39,7 @@ header {
 .donate-button .btn:hover {
     background-color: #fff;
     color: rgb(20, 40, 80);
+    border: 1px solid rgb(20, 40, 80);
 }
   
   /* NAVBAR */
@@ -70,6 +71,11 @@ nav ul li a {
     color: rgb(20, 40, 80);
     text-decoration: none;
     font-size: 15px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    font-size: 16px;
 }
   
 .nav-right ul {
@@ -170,7 +176,7 @@ nav ul li a:hover {
     margin-right: 200px;
     padding: 20px;
     color: #fff;
-    background-color: rgba(0, 0, 0, 0.60);
+    background-color: rgb(20, 40, 80);
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     border-radius: 30px;
 }
@@ -183,28 +189,35 @@ nav ul li a:hover {
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-
-.goals {
+.missions {
     display: flex;
     flex-direction: row;
-    gap: 100px;
-    text-align: center;
     justify-content: center;
+    text-align: center;
+    gap: 100px;
 }
 
-.goals img {
+.mission-content {
     width: 300px;
 }
 
-.mission-desc {
-    max-width: 300px;
-    height: 100px;
-    background-color: rgba(0, 0, 0, 0.60);
+.mission-content img {
+    width: 200px;
 }
 
-.mission-desc h5 {
-    margin: 0;
-    color: #fff;
+.mission-body h5 {
+    color: rgb(20, 40, 80);
+}
+
+.mission-body button {
+    border: 1px solid rgb(20, 40, 80);
+    color: rgb(20, 40, 80);
+    width: 200px;
+}
+
+.mission-body button:hover {
+    border: 1px solid #fff;
+    background-color: rgb(20, 40, 80);
 }
 
 .front-end-dev, .web-designer {
