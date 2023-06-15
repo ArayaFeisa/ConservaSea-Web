@@ -101,7 +101,7 @@ nav ul li a:hover {
   color: rgb(20, 40, 80);
 }
 
-.breaking-news, .latest-news, .our-event, .top-rated {
+.breaking-news, .latest-news, .our-event, .testimonies {
   margin-top: 125px
 }
 
@@ -137,6 +137,7 @@ nav ul li a:hover {
   height: 600px;
   display: flex;
   justify-content: center;
+  align-items: center;
   opacity: 1;
   background-color: rgba(0, 0, 0, 0.5);
 }
@@ -226,29 +227,65 @@ nav ul li a:hover {
   border-radius: 50%;
 }
 
-.top-rated .list-group .card {
-    border: none;
-}
-
 .content {
-    display: flex;
-    justify-content: center;
-    text-align: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 .content-body {
-    text-align: left;
+  text-align: left;
 }
 
 .content-body h5 {
-    font-size: 32px;
-    padding: 10px;
-    letter-spacing: 3px;
-    border: solid 2px;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-color: goldenrod;
+  font-size: 32px;
+  padding: 10px;
+  letter-spacing: 3px;
+  border: solid 2px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-color: goldenrod;
+}
+
+.testimony-banner {
+  position: absolute;
+  background-color: rgb(20, 40, 80);
+  height: 600px;
+}
+
+.testimonies h1 {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: bold;
+  justify-content: center;
+  text-align: center;
+}
+
+.testimony {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  gap: 150px;
+  justify-content: center;
+}
+
+.testimony-content {
+  border: 1px solid;
+  width: 250px;
+  height: 400px;
+  justify-content: center;
+  text-align: center;
+  background-color: #fff;
+}
+
+.testimony-content img {
+  margin: 20px 10px 0;
+  width: 100px;
+}
+
+.testimony-body {
+  margin: 15px;
+  color: rgb(20, 40, 80);
 }
 
 footer {
@@ -258,13 +295,13 @@ footer {
 }
 
 .footer-bg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 250px;
-    background-color: #000;
-    z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 250px;
+  background-color: #000;
+  z-index: -1;
 }
   
 .upper-part {
