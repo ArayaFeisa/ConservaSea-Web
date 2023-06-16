@@ -228,6 +228,11 @@ nav ul li a:hover {
   border-radius: 50%;
 }
 
+.news-footer p {
+  font-size: 12px;
+  padding-bottom: 10px;
+}
+
 .donation-banner {
   background-color: #27496D;
   height: 300px;
