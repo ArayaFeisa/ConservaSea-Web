@@ -101,11 +101,11 @@ nav ul li a:hover {
   color: rgb(20, 40, 80);
 }
 
-.breaking-news, .latest-news, .our-event, .testimonies {
+.breaking-news, .latest-news, .our-event, .testimonies, .discussion {
   margin-top: 125px
 }
 
-.activity h1, .breaking-news h1, .latest-news h1, .our-event h1, .top-rated h1 {
+.activity h1, .breaking-news h1, .latest-news h1, .our-event h1, .discussion h1 {
   font-family: 'Nunito Sans', sans-serif;
   font-weight: bold;
   border-style: solid;
@@ -226,6 +226,72 @@ nav ul li a:hover {
 .news .carousel button span {
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 50%;
+}
+
+.donation-banner {
+  background-color: #27496D;
+  height: 300px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.donation-desc {
+  position: relative;
+  margin-top: 65px;
+  margin-left: 30px;
+}
+
+.donation-image {
+  height: 300px;
+}
+
+.desc-body {
+  color: #fff;
+}
+
+.donation-image img {
+  height: 300px;
+}
+
+/* Discussion */
+.discussion-banner {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+  align-items: start;
+  background-color: #27496D;
+  color: #fff;
+}
+
+.discussion-banner .head {
+  display: flex;
+  flex-direction: row;
+}
+
+.discussion-image {
+  margin-right: 30px;
+}
+
+.discussion-image img {
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+}
+
+.discussion-topic {
+  margin-top: 30px;
+}
+
+.discussion-topic .head-info {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.discussion-banner .body {
+  margin: 20px;
 }
 
 .content {
