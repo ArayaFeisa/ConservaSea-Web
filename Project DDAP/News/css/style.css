@@ -100,13 +100,12 @@ nav ul li a:hover {
 nav ul li a:hover {
     color: rgb(20, 40, 80);
 }
-  
 
-.trending {
+.topics, .trending, .mustknow {
     margin-top: 125px;
 }
 
-.breaking-news h1, .trending h1 {
+.breaking-news h1, .topics h1, .trending h1, .mustknow h1 {
     font-family: 'Nunito Sans', sans-serif;
     font-weight: bold;
     border-style: solid;
@@ -114,37 +113,93 @@ nav ul li a:hover {
     border-top: none;
     border-right: none;
     border-bottom: none;
-    border-color: rgb(20, 40, 80);
-}
-
-.breaking-news .card {
-    width: 400px;
-    border: none;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-}
-
-.breaking-news .card img {
-    width: 400px;
-}
-
-.carousel-control-prev span,
-.carousel-control-next span {
-    background-color: #000;
-    color: white;
-    padding: 10px;
-}
-
-.trending .card {
-    border: none;
-}
-
-.trending .card-body {
+    border-color: goldenrod;
+    color: rgb(20, 40, 80);
+  }
+  
+.news {
     display: flex;
     flex-direction: column;
 }
 
-.trending button {
-    position: relative;
+.news-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 30px;
+    gap: 30px;
+}
+
+.news-line .content img {
+    width: 393px;
+    height: 225px;
+}
+
+.news-line .content-body {
+    background-color: rgba(169, 169, 169, 0.2);
+}
+
+.news-line .content-body h5 {
+    font-size: 12px;
+    padding: 10px;
+    letter-spacing: 3px;
+    border: solid 2px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: goldenrod;
+}
+
+.trending-content {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .content-body {
+    text-align: left;
+  }
+  
+  .content-body h5 {
+    font-size: 32px;
+    padding: 10px;
+    letter-spacing: 3px;
+    border: solid 2px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: goldenrod;
+  }
+
+.content-footer p {
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+
+.topics-list {
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+.list-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.list-line .content h5 {
+    justify-content: center;
+    text-align: center;
+    margin: 30px;
+}
+
+.list-line .content {
+    border: 1px solid;
 }
 
 footer {
