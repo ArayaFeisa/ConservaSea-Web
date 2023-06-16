@@ -40,8 +40,8 @@ header {
     background-color: #fff;
     color: rgb(20, 40, 80);
 }
-  
-  /* NAVBAR */
+ 
+/* NAVBAR */
 nav {
     padding: 20px;
     display: flex;
@@ -95,6 +95,187 @@ nav ul li a:hover {
     color: rgb(20, 40, 80);
 }
 
+.gambar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    max-width: 400px;
+    max-height: 400px;
+}
+
+/* CONTENT */
+.details-section {
+  background-color: #f2f2f2;
+}
+
+.centered-text {
+  text-align: center;
+  padding: 40px;
+}
+
+.donation-content {
+  background-color: #fff;
+  border: 1px solid #000;
+  margin: 20px auto;
+  padding: 60px;
+  text-align: center;
+  width: 90%;
+  max-width: 1500px;
+  display: flex;
+}
+
+.left-content {
+  flex: 1;
+}
+
+.right-content {
+  flex: 1;
+}
+
+.amount-box {
+  margin-top: 50px;
+}
+
+.details-title,
+.amount-title,
+.payment-title,
+.payment-section-title {
+  padding: 10px;
+}
+
+.details-box h2,
+.amount-box h2,
+.payment-box h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.payment-section {
+  margin-bottom: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form label {
+  display: block;
+  margin-top: 10px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form textarea,
+form select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.checkbox input[type="checkbox"] {
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.amount-buttons,
+.payment-buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.amount-button,
+.payment-button {
+  background-color: rgb(20, 40, 80);
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 100%;
+  max-width: 200px;
+}
+
+.payment-row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.amount-button:hover,
+.payment-button:hover {
+  background-color: #fff;
+  color: rgb(20, 40, 80);
+}
+
+.payment-section-title{
+    background-color: #f2f2f2;
+}
+
+.bottom-content {
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.donation {
+  margin-bottom: 10px;
+}
+
+.donate-button2 {
+  background-color: rgb(20, 40, 80);
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  width: 100%;
+  max-width: 200px;
+  margin-top: 40px;
+}
+
+.donate-button2:hover {
+  background-color: #fff;
+  color: rgb(20, 40, 80);
+}
+
+
+
+  
+/* FOOTER */
 footer {
     position: relative;
     overflow: hidden;
