@@ -256,7 +256,7 @@ video::-webkit-media-controls-start-playback-button {
 }
 
 .donation-banner {
-    background-color: #000;
+    background-color: #27496D;
     height: 300px;
     width: 800px;
     display: flex;
@@ -282,7 +282,56 @@ video::-webkit-media-controls-start-playback-button {
     height: 300px;
 }
 
+/* Discussion */
+.discussion-content {
+    display: flex;
+    flex-direction: column;
+}
 
+.discussion-item {
+    display: flex;
+    background-color: #ccc;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.image-container {
+    width: 25%;
+    margin-right: 20px;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+}
+
+.discussion-info {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.discussion-stats {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.stat-view,
+.stat-replies {
+    font-size: 14px;
+    margin: 0;
+}
+
+.discussion-text {
+    margin-top: 10px;
+    font-size: 14px;
+    order: 3;
+}
+
+/* FOOTER */
 footer {
     position: relative;
     overflow: hidden;
