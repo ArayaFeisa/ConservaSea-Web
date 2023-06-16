@@ -301,8 +301,8 @@ video::-webkit-media-controls-start-playback-button {
 }
 
 .image-container img {
-    width: 100%;
-    height: auto;
+    width: 200px;
+    height: 150px;
 }
 
 .discussion-info {
@@ -329,6 +329,30 @@ video::-webkit-media-controls-start-playback-button {
     margin-top: 10px;
     font-size: 14px;
     order: 3;
+}
+
+.see-all-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.see-all-button .btn {
+    background-color: rgb(20, 40, 80);
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.see-all-button .btn:hover {
+    background-color: #fff;
+    color: rgb(20, 40, 80);
 }
 
 /* FOOTER */
