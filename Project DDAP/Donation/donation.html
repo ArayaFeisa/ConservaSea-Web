@@ -15,7 +15,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
 
-        <title>News</title>
+        <title>Donation</title>
     </head>
 
     <body>
@@ -50,87 +50,107 @@
             </nav>
         </div>
 
-        <div class="donation-container">
-            <figure class="figure">
-                <img src="image/Pencemaran-Laut-dan-Perhitungan-Kerugiannya.jpg" width="600px text-center" class="figure-img img-fluid rounded" alt="...">
-                <figcaption class="figure-caption text-center">ConservaSea
-                </figcaption>
-            </figure>
+        <div class="gambar">
+            <img class="image" src="image/Pencemaran-Laut-dan-Perhitungan-Kerugiannya.jpg" alt="Pencemaran Laut dan Perhitungan Kerugiannya">
         </div>
-
+        
         <section class="details-section">
-            <div class="details-info">
-                <h2 class="center-element details-title">Details</h2>
-                <form>
-                    <div class="form-group">
-                        <label for="username"></label>
-                        <input type="text" id="username" name="username" placeholder="Name">
+            <p class="centered-text">We need the support of individuals like you to confront the most significant challenges posed by nature.</p>
+          
+            <div class="donation-content">
+              <div class="left-content">
+                <div class="details-box">
+                  <h2 class="details-title">Details</h2>
+                  <form id="details-form">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Name" required>
+          
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" placeholder="Email Address" required>
+          
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
+          
+                    <div class="checkbox">
+                      <input type="checkbox" id="agree" name="agree" required>
+                      <label for="agree">I agree to receive communications from ConservaSea.</label>
                     </div>
-                    <div class="form-group">
-                        <label for="email"></label>
-                        <input type="text" id="email" name="email" placeholder="Email Address">
+                  </form>
+                </div>
+          
+                <div class="amount-box">
+                  <h2 class="amount-title">Amount</h2>
+                  <form id="amount-form">
+                    <div class="amount-buttons">
+                      <button class="amount-button" value="50000">IDR 50,000</button>
+                      <button class="amount-button" value="100000">IDR 100,000</button>
+                      <button class="amount-button" value="200000">IDR 200,000</button>
+                      <button class="amount-button" value="custom">Enter Another Amount</button>
                     </div>
-                    <div class="form-group">
-                        <label for="phone"></label>
-                        <input type="number" id="phone" name="phone" placeholder="Phone Number">
+                  </form>
+                </div>
+                
+                
+              </div>
+          
+              <div class="right-content">
+                <div class="payment-box">
+                  <h2 class="payment-title">Payment</h2>
+                  <form id="payment-form">
+                    <div class="payment-buttons">
+                      <div class="payment-section">
+                        <h5 class="payment-section-title">Virtual Account</h5>
+                        <div class="payment-row">
+                          <button class="payment-button" value="BNI">BNI</button>
+                          <button class="payment-button" value="BRI">BRI</button>
+                        </div>
+                        <div class="payment-row">
+                          <button class="payment-button" value="Mandiri">Mandiri</button>
+                          <button class="payment-button" value="BSI">BSI</button>
+                        </div>
+                        <div class="payment-row">
+                          <button class="payment-button" value="BCA">BCA</button>
+                          <button class="payment-button" value="CIMB Niaga">CIMB Niaga</button>
+                        </div>
+                        <div class="payment-row">
+                          <button class="payment-button" value="Bank Mega">Bank Mega</button>
+                          <button class="payment-button" value="BTN">BTN</button>
+                        </div>
+                      </div>
+          
+                      <div class="payment-section">
+                        <h5 class="payment-section-title">E-Wallet & QRIS</h5>
+                        <div class="payment-row">
+                          <button class="payment-button" value="QRIS">QRIS</button>
+                          <button class="payment-button" value="GoPay">GoPay</button>
+                        </div>
+                        <div class="payment-row">
+                          <button class="payment-button" value="DANA">DANA</button>
+                          <button class="payment-button" value="OVO">OVO</button>
+                        </div>
+                        <div class="payment-row">
+                          <button class="payment-button" value="ShopeePay">SPay</button>
+                          <button class="payment-button" value="LinkAja">LinkAja</button>
+                        </div>
+                      </div>
                     </div>
-                    <div class="form-group remember-me">
-                        <input type="checkbox" id="agree" name="agree" required>
-                        <label for="agree">I agree to recieve communications from ConservaSea</label>
-                    </div>
-                </form>
+                  </form>
+                </div>
+              </div>
             </div>
-        </section>
+          </section>
 
-        <section class="amount-section">
-            <div class="amount-info">
-                <h2 class="center-element amount-title">Amount</h2>
-                <form>
-                    <div class="form-group">
-                        <label for="50k"></label>
-                        <input type="number" id="50k" name="50k" placeholder="IDR 50,000">
-                    </div>
-                    <div class="form-group">
-                        <label for="100k"></label>
-                        <input type="number" id="100k" name="100k" placeholder="IDR 100.000">
-                    </div>
-                    <div class="form-group">
-                        <label for="200k"></label>
-                        <input type="number" id="200k" name="200k" placeholder="IDR 200.000">
-                    </div>
-                    <div class="form-group">
-                        <label for="anotheramount"></label>
-                        <input type="number" id="anotheramount" name="anotheramount" placeholder="Enter another amount">
-                    </div>
-                </form>
+          <div class="bottom-content">
+            <h2 class="donation">Donation</h2>
+            <button class="amount-button">Amount</button>
+            <div class="checkbox">
+              <input type="checkbox" id="terms" name="terms">
+              <label for="terms">I understand and agree to the Terms & Conditions.</label>
             </div>
-        </section>
-
-        <section class="payment-section">
-            <div class="va-info">
-                <h2 class="center-element va-title">Virtual Account</h2>
-                <form>
-                    <div class="form-group">
-                        <button value="BNI">BNI</button>
-                        <button button value="BCA">BRI</button>
-                    </div>
-                    <div class="form-group">
-                        <button button value="Mandiri">Mandiri</button>
-                        <button button value="BSI">BSI</button>
-                    </div>
-                    <div class="form-group">
-                        <button button value="BCA">BCA</button>
-                        <button button value="CIMB">CIMB Niaga</button>
-                    </div>
-                    <div class="form-group">
-                        <button button value="Bank Mega">Bank Mega</button>
-                        <button button value="BTN">BTN</button>
-                    </div>
-                </form>
-            </div>
-        </section>
-    </body>
-
+            <button class="donate-button2">Donate</button>
+          </div>
+          
+          
     <footer>
         <div class="footer-bg"></div>
         <div class="upper-part container">
