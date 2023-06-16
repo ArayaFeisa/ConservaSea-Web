@@ -234,6 +234,11 @@ nav ul li a:hover {
   text-align: center;
 }
 
+.content img {
+  width: 500px;
+  height: 300px;
+}
+
 .content-body {
   text-align: left;
 }
