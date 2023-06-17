@@ -113,7 +113,8 @@ nav ul li a:hover {
     border-top: none;
     border-right: none;
     border-bottom: none;
-    border-color: rgb(20, 40, 80);
+    border-color: goldenrod;
+    color: rgb(20, 40, 80);
 }
 
 
