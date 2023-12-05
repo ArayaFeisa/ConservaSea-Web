@@ -229,6 +229,7 @@ video::-webkit-media-controls-start-playback-button {
     text-align: center;
 }
 
+/* Banner */
 .banner {
     position: absolute;
     left: 100px;
